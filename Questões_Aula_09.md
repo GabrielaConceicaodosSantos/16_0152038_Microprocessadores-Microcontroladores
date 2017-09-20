@@ -7,6 +7,7 @@ Disciplina Microprocessadores e Microcontroladores, Curso de Engenharia Eletrôn
 int main( void )
 
 {
+
     WDTCTL = WDTPW | WDTHOLD; //para o Watch Dog
     
     P1DIR = BIT1;                       //configura o pino 1 como saída 0b 0000 0010 
@@ -21,7 +22,9 @@ if (BIT1 == 0)
  
 if ( BIT1 = 0)   /// apertado 0
 
-{i--;}
+{i--;
+
+}
 
 else
 
